@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="Global" WorkspaceID="Approved" UseContextLocale="false">
+    <Products>
+        <Product ID="24334937" UserTypeID="digh_level1" ParentID="DIGH_Test">
+            <Name Changed="true">New</Name>
+            <Values>
+                <Value AttributeID="Path_1" Derived="true">Primary Product Hierarchy/DIGH_Test/New</Value>
+                <Value AttributeID="artnrext" Derived="true"> ()</Value>
+                <Value AttributeID="artnrratio" Derived="true">rev1099256-com.stibo.core.persistence.NodePO-2069633rev1099261-com.stibo.core.persistence.NodePO-2069633com.stibo.core.persistence.NodePO-2069633</Value>
+                <MultiValue AttributeID="desc">
+                    <Value>45</Value>
+                </MultiValue>
+            </Values>
+        </Product>
+    </Products>
+</STEP-ProductInformation>
