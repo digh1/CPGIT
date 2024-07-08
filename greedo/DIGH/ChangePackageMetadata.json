@@ -1367,7 +1367,7 @@
     "instruction" : "",
     "recursive" : false
   }, {
-    "name" : "Unité d’affaires – racine",
+    "name" : "Business Unit Root",
     "itemURL" : "step://objecttype?id=BusinessUnitRoot",
     "inclusion" : "Impacted",
     "importing" : "Ignore",
@@ -2872,7 +2872,7 @@
     "instruction" : "",
     "recursive" : false
   }, {
-    "name" : "VIGA Product Hierarchy",
+    "name" : "VIGA Product Hierar",
     "itemURL" : "step://objecttype?id=VIGA_Product_Hierarchy",
     "inclusion" : "Impacted",
     "importing" : "Ignore",
@@ -3068,7 +3068,7 @@
     "instruction" : "",
     "recursive" : false
   }, {
-    "name" : "DISO Date",
+    "name" : "test11",
     "itemURL" : "step://attribute?id=DISO+Date",
     "inclusion" : "Impacted",
     "importing" : "Ignore",
@@ -3425,7 +3425,7 @@
     "instruction" : "",
     "recursive" : false
   }, {
-    "name" : "Recipe Root",
+    "name" : "Recette – racine",
     "itemURL" : "step://objecttype?id=RecipeRoot",
     "inclusion" : "Impacted",
     "importing" : "Ignore",
@@ -5707,7 +5707,7 @@
     "instruction" : "",
     "recursive" : false
   }, {
-    "name" : "Sobeys DO NOT USE",
+    "name" : "Sobeys – NE PAS UTILISER",
     "itemURL" : "step://objecttype?id=Sobeys",
     "inclusion" : "Impacted",
     "importing" : "Ignore",
@@ -12245,7 +12245,7 @@
     "instruction" : "",
     "recursive" : false
   }, {
-    "name" : "VisyBlukupdate",
+    "name" : "visy_KrampTestprods",
     "itemURL" : "step://objecttype?id=visy_KrampTestprods",
     "inclusion" : "Impacted",
     "importing" : "Ignore",
@@ -14912,7 +14912,7 @@
     "instruction" : "",
     "recursive" : false
   }, {
-    "name" : "PPHSobeys",
+    "name" : "HPP - Sobeys",
     "itemURL" : "step://objecttype?id=PPHSobeys",
     "inclusion" : "Impacted",
     "importing" : "Ignore",
@@ -15570,7 +15570,7 @@
     "instruction" : "",
     "recursive" : false
   }, {
-    "name" : "Produits",
+    "name" : "Products",
     "itemURL" : "step://objecttype?id=Products",
     "inclusion" : "Impacted",
     "importing" : "Ignore",
@@ -15864,7 +15864,7 @@
     "instruction" : "",
     "recursive" : false
   }, {
-    "name" : "VisyBlukupdate",
+    "name" : "visy Primary Product Hiearchy",
     "itemURL" : "step://objecttype?id=visyPPH",
     "inclusion" : "Impacted",
     "importing" : "Ignore",
@@ -16620,7 +16620,7 @@
     "instruction" : "",
     "recursive" : false
   } ],
-  "signedGlobalXml" : "<STEP-ProductInformation ContextID=\"Global\"  WorkspaceID=\"Main\"  ExportTime=\"2024-07-08 19:34:18\"    UseContextLocale=\"false\">\n\n  <Qualifiers>\n    <Qualifier ID=\"std.lang.all\">\n      <DimensionPointLink DimensionPointID=\"std.lang.all\"/>\n    </Qualifier>\n  </Qualifiers>\n\n  <UserTypes>\n    <UserType ID=\"digh_level1\" ManuallySorted=\"true\" AllowInDesignTemplate=\"false\" AllowQuarkTemplate=\"false\" IsCategory=\"false\" ReferenceTargetLockPolicy=\"Strict\" IDPattern=\"[id]\">\n      <Name QualifierID=\"std.lang.all\">digh_level1</Name>\n      <UserTypeLink UserTypeID=\"DIGH_Hierarchy\"/>\n      <UserTypeLink UserTypeID=\"DIGH_root\"/>\n    </UserType>\n    <UserType ID=\"DIGH_Hierarchy\" ManuallySorted=\"false\" AllowInDesignTemplate=\"false\" AllowQuarkTemplate=\"false\" IsCategory=\"false\" ReferenceTargetLockPolicy=\"Strict\">\n      <Name QualifierID=\"std.lang.all\">DIGH_Hierarchy</Name>\n      <UserTypeLink UserTypeID=\"Product user-type root\"/>\n    </UserType>\n    <UserType ID=\"DIGH_objectroot\" ManuallySorted=\"false\" AllowInDesignTemplate=\"false\" AllowQuarkTemplate=\"false\" IsCategory=\"true\" ReferenceTargetLockPolicy=\"Strict\" IDPattern=\"[id]\">\n      <Name QualifierID=\"std.lang.all\">DIGH_objectroot</Name>\n      <UserTypeLink UserTypeID=\"Product user-type root\"/>\n    </UserType>\n    <UserType ID=\"DIGH_Level2\" ManuallySorted=\"false\" AllowInDesignTemplate=\"false\" AllowQuarkTemplate=\"false\" IsCategory=\"false\" ReferenceTargetLockPolicy=\"Strict\" IDPattern=\"[id]\">\n      <UserTypeLink UserTypeID=\"DIGH_Level1\"/>\n    </UserType>\n    <UserType ID=\"dighsku\" ManuallySorted=\"false\" AllowInDesignTemplate=\"false\" AllowQuarkTemplate=\"false\" IsCategory=\"false\" ReferenceTargetLockPolicy=\"Strict\" IDPattern=\"[id]\">\n      <Name QualifierID=\"std.lang.all\">dighsku</Name>\n      <DimensionLink DimensionID=\"Language\"/>\n      <UserTypeLink UserTypeID=\"dighlvl3\"/>\n    </UserType>\n    <UserType ID=\"dighlvl3\" ManuallySorted=\"false\" AllowInDesignTemplate=\"false\" AllowQuarkTemplate=\"false\" IsCategory=\"false\" ReferenceTargetLockPolicy=\"Strict\" IDPattern=\"[id]\">\n      <Name QualifierID=\"std.lang.all\">dighlvl3</Name>\n      <DimensionLink DimensionID=\"Language\"/>\n      <UserTypeLink UserTypeID=\"dighlvl2\"/>\n    </UserType>\n    <UserType ID=\"DIGH_SKU\" ManuallySorted=\"false\" AllowInDesignTemplate=\"false\" AllowQuarkTemplate=\"false\" IsCategory=\"true\" ReferenceTargetLockPolicy=\"Strict\" IDPattern=\"[id]\">\n      <Name QualifierID=\"std.lang.all\">DIGH_SKU</Name>\n      <UserTypeLink UserTypeID=\"DIGH_LVL3\"/>\n    </UserType>\n    <UserType ID=\"dighlvl2\" ManuallySorted=\"false\" AllowInDesignTemplate=\"false\" AllowQuarkTemplate=\"false\" IsCategory=\"false\" ReferenceTargetLockPolicy=\"Strict\" IDPattern=\"[id]\">\n      <Name QualifierID=\"std.lang.all\">dighlvl2</Name>\n      <DimensionLink DimensionID=\"Language\"/>\n      <UserTypeLink UserTypeID=\"dighlvl1\"/>\n    </UserType>\n    <UserType ID=\"DIGH_LVL3\" ManuallySorted=\"false\" AllowInDesignTemplate=\"false\" AllowQuarkTemplate=\"false\" IsCategory=\"true\" ReferenceTargetLockPolicy=\"Strict\" IDPattern=\"[id]\">\n      <Name QualifierID=\"std.lang.all\">DIGH_LVL3</Name>\n      <UserTypeLink UserTypeID=\"DIGH_LVL2\"/>\n    </UserType>\n    <UserType ID=\"dighlvl1\" ManuallySorted=\"false\" AllowInDesignTemplate=\"false\" AllowQuarkTemplate=\"false\" IsCategory=\"true\" ReferenceTargetLockPolicy=\"Strict\">\n      <Name QualifierID=\"std.lang.all\">dighlvl1</Name>\n      <DimensionLink DimensionID=\"Language\"/>\n      <UserTypeLink UserTypeID=\"DIGH_object\"/>\n    </UserType>\n    <UserType ID=\"DIGH_LVL2\" ManuallySorted=\"false\" AllowInDesignTemplate=\"false\" AllowQuarkTemplate=\"false\" IsCategory=\"true\" ReferenceTargetLockPolicy=\"Strict\" IDPattern=\"[id]\">\n      <Name QualifierID=\"std.lang.all\">DIGH_LVL2</Name>\n      <UserTypeLink UserTypeID=\"DIGH_LVL1\"/>\n    </UserType>\n    <UserType ID=\"DIGH_object\" ManuallySorted=\"false\" AllowInDesignTemplate=\"false\" AllowQuarkTemplate=\"false\" IsCategory=\"true\" ReferenceTargetLockPolicy=\"Strict\" IDPattern=\"[id]\">\n      <Name QualifierID=\"std.lang.all\">DIGH_object</Name>\n      <DimensionLink DimensionID=\"Language\"/>\n      <UserTypeLink UserTypeID=\"Product user-type root\"/>\n    </UserType>\n    <UserType ID=\"DIGH_Level1\" ManuallySorted=\"false\" AllowInDesignTemplate=\"false\" AllowQuarkTemplate=\"false\" IsCategory=\"false\" ReferenceTargetLockPolicy=\"Strict\" IDPattern=\"[id]\">\n      <UserTypeLink UserTypeID=\"DIGH_objectroot\"/>\n    </UserType>\n    <UserType ID=\"DIGH_LVL1\" ManuallySorted=\"false\" AllowInDesignTemplate=\"false\" AllowQuarkTemplate=\"false\" IsCategory=\"true\" ReferenceTargetLockPolicy=\"Strict\" IDPattern=\"[id]\">\n      <Name QualifierID=\"std.lang.all\">DIGH_LVL1</Name>\n      <UserTypeLink UserTypeID=\"DIGH_objectroot\"/>\n    </UserType>\n  </UserTypes>\n</STEP-ProductInformation>\n",
+  "signedGlobalXml" : "<STEP-ProductInformation ContextID=\"Global\"  WorkspaceID=\"Main\"  ExportTime=\"2024-07-08 20:13:51\"    UseContextLocale=\"false\">\n\n  <Qualifiers>\n    <Qualifier ID=\"std.lang.all\">\n      <DimensionPointLink DimensionPointID=\"std.lang.all\"/>\n    </Qualifier>\n  </Qualifiers>\n\n  <UserTypes>\n    <UserType ID=\"digh_level1\" ManuallySorted=\"true\" AllowInDesignTemplate=\"false\" AllowQuarkTemplate=\"false\" IsCategory=\"false\" ReferenceTargetLockPolicy=\"Strict\" IDPattern=\"[id]\">\n      <Name QualifierID=\"std.lang.all\">digh_level1</Name>\n      <UserTypeLink UserTypeID=\"DIGH_Hierarchy\"/>\n      <UserTypeLink UserTypeID=\"DIGH_root\"/>\n    </UserType>\n    <UserType ID=\"DIGH_Hierarchy\" ManuallySorted=\"false\" AllowInDesignTemplate=\"false\" AllowQuarkTemplate=\"false\" IsCategory=\"false\" ReferenceTargetLockPolicy=\"Strict\">\n      <Name QualifierID=\"std.lang.all\">DIGH_Hierarchy</Name>\n      <UserTypeLink UserTypeID=\"Product user-type root\"/>\n    </UserType>\n    <UserType ID=\"DIGH_objectroot\" ManuallySorted=\"false\" AllowInDesignTemplate=\"false\" AllowQuarkTemplate=\"false\" IsCategory=\"true\" ReferenceTargetLockPolicy=\"Strict\" IDPattern=\"[id]\">\n      <Name QualifierID=\"std.lang.all\">DIGH_objectroot</Name>\n      <UserTypeLink UserTypeID=\"Product user-type root\"/>\n    </UserType>\n    <UserType ID=\"DIGH_Level2\" ManuallySorted=\"false\" AllowInDesignTemplate=\"false\" AllowQuarkTemplate=\"false\" IsCategory=\"false\" ReferenceTargetLockPolicy=\"Strict\" IDPattern=\"[id]\">\n      <UserTypeLink UserTypeID=\"DIGH_Level1\"/>\n    </UserType>\n    <UserType ID=\"dighsku\" ManuallySorted=\"false\" AllowInDesignTemplate=\"false\" AllowQuarkTemplate=\"false\" IsCategory=\"false\" ReferenceTargetLockPolicy=\"Strict\" IDPattern=\"[id]\">\n      <Name QualifierID=\"std.lang.all\">dighsku</Name>\n      <DimensionLink DimensionID=\"Language\"/>\n      <UserTypeLink UserTypeID=\"dighlvl3\"/>\n    </UserType>\n    <UserType ID=\"dighlvl3\" ManuallySorted=\"false\" AllowInDesignTemplate=\"false\" AllowQuarkTemplate=\"false\" IsCategory=\"false\" ReferenceTargetLockPolicy=\"Strict\" IDPattern=\"[id]\">\n      <Name QualifierID=\"std.lang.all\">dighlvl3</Name>\n      <DimensionLink DimensionID=\"Language\"/>\n      <UserTypeLink UserTypeID=\"dighlvl2\"/>\n    </UserType>\n    <UserType ID=\"DIGH_SKU\" ManuallySorted=\"false\" AllowInDesignTemplate=\"false\" AllowQuarkTemplate=\"false\" IsCategory=\"true\" ReferenceTargetLockPolicy=\"Strict\" IDPattern=\"[id]\">\n      <Name QualifierID=\"std.lang.all\">DIGH_SKU</Name>\n      <UserTypeLink UserTypeID=\"DIGH_LVL3\"/>\n    </UserType>\n    <UserType ID=\"dighlvl2\" ManuallySorted=\"false\" AllowInDesignTemplate=\"false\" AllowQuarkTemplate=\"false\" IsCategory=\"false\" ReferenceTargetLockPolicy=\"Strict\" IDPattern=\"[id]\">\n      <Name QualifierID=\"std.lang.all\">dighlvl2</Name>\n      <DimensionLink DimensionID=\"Language\"/>\n      <UserTypeLink UserTypeID=\"dighlvl1\"/>\n    </UserType>\n    <UserType ID=\"DIGH_LVL3\" ManuallySorted=\"false\" AllowInDesignTemplate=\"false\" AllowQuarkTemplate=\"false\" IsCategory=\"true\" ReferenceTargetLockPolicy=\"Strict\" IDPattern=\"[id]\">\n      <Name QualifierID=\"std.lang.all\">DIGH_LVL3</Name>\n      <UserTypeLink UserTypeID=\"DIGH_LVL2\"/>\n    </UserType>\n    <UserType ID=\"dighlvl1\" ManuallySorted=\"false\" AllowInDesignTemplate=\"false\" AllowQuarkTemplate=\"false\" IsCategory=\"true\" ReferenceTargetLockPolicy=\"Strict\">\n      <Name QualifierID=\"std.lang.all\">dighlvl1</Name>\n      <DimensionLink DimensionID=\"Language\"/>\n      <UserTypeLink UserTypeID=\"DIGH_object\"/>\n    </UserType>\n    <UserType ID=\"DIGH_LVL2\" ManuallySorted=\"false\" AllowInDesignTemplate=\"false\" AllowQuarkTemplate=\"false\" IsCategory=\"true\" ReferenceTargetLockPolicy=\"Strict\" IDPattern=\"[id]\">\n      <Name QualifierID=\"std.lang.all\">DIGH_LVL2</Name>\n      <UserTypeLink UserTypeID=\"DIGH_LVL1\"/>\n    </UserType>\n    <UserType ID=\"DIGH_object\" ManuallySorted=\"false\" AllowInDesignTemplate=\"false\" AllowQuarkTemplate=\"false\" IsCategory=\"true\" ReferenceTargetLockPolicy=\"Strict\" IDPattern=\"[id]\">\n      <Name QualifierID=\"std.lang.all\">DIGH_object</Name>\n      <DimensionLink DimensionID=\"Language\"/>\n      <UserTypeLink UserTypeID=\"Product user-type root\"/>\n    </UserType>\n    <UserType ID=\"DIGH_Level1\" ManuallySorted=\"false\" AllowInDesignTemplate=\"false\" AllowQuarkTemplate=\"false\" IsCategory=\"false\" ReferenceTargetLockPolicy=\"Strict\" IDPattern=\"[id]\">\n      <UserTypeLink UserTypeID=\"DIGH_objectroot\"/>\n    </UserType>\n    <UserType ID=\"DIGH_LVL1\" ManuallySorted=\"false\" AllowInDesignTemplate=\"false\" AllowQuarkTemplate=\"false\" IsCategory=\"true\" ReferenceTargetLockPolicy=\"Strict\" IDPattern=\"[id]\">\n      <Name QualifierID=\"std.lang.all\">DIGH_LVL1</Name>\n      <UserTypeLink UserTypeID=\"DIGH_objectroot\"/>\n    </UserType>\n  </UserTypes>\n</STEP-ProductInformation>\n",
   "signatory" : "STEPSYS",
-  "comment" : "sealed"
+  "comment" : "Sealed"
 }
