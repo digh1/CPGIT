@@ -1,0 +1,353 @@
+{
+  "version" : "2",
+  "id" : "DIGH",
+  "name" : "DIGH",
+  "metadata" : { },
+  "setupGroupId" : "ChangePackage",
+  "uniqueId" : "cpk-0de07186-8566-4f01-9445-1b829254659c",
+  "origin" : "xylophone1",
+  "wasSigned" : "true",
+  "wasExported" : "false",
+  "installMode" : "false",
+  "aspect" : "All",
+  "items" : [ {
+    "name" : "Chih_textattr",
+    "itemURL" : "step://attribute?id=Chih_textattr",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Test_check",
+    "itemURL" : "step://attribute?id=Test_check",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Created at",
+    "itemURL" : "step://attribute?id=Created+at",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "MarketingBrand",
+    "itemURL" : "step://attribute?id=MarketingBrand",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "text",
+    "itemURL" : "step://attribute?id=text",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Lists of Values / LOVs",
+    "itemURL" : "step://ListOfValuesGroup?id=List+Of+Values+group+root",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "desc",
+    "itemURL" : "step://attribute?id=desc",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "DIGH_prodref",
+    "itemURL" : "step://referencetype?id=DIGH_prodref",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "draj_product_network",
+    "itemURL" : "step://attribute?id=draj_product_network",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Testcase",
+    "itemURL" : "step://ListOfValues?id=Testcase",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "ShelfLifeLength2",
+    "itemURL" : "step://attribute?id=ShelfLifeLength2",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Created_BY",
+    "itemURL" : "step://attribute?id=Created_BY",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "WURTH",
+    "itemURL" : "step://attribute?id=WURTH",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Testcase11",
+    "itemURL" : "step://attribute?id=Testcase11",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "dighsku",
+    "itemURL" : "step://objecttype?id=dighsku",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "dighlvl1",
+    "itemURL" : "step://objecttype?id=dighlvl1",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "SIEMNS_TEST",
+    "itemURL" : "step://attribute?id=SIEMNS_TEST",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Single Front",
+    "itemURL" : "step://referencetype?id=PMDM.IDRT.PrimaryProductImage",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "ShelfLifeLength3",
+    "itemURL" : "step://attribute?id=ShelfLifeLength3",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Tooling Parameter Type",
+    "itemURL" : "step://attribute?id=Attr_ToolingParamAttType",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "SCHIEN_LOV",
+    "itemURL" : "step://attribute?id=SCHIEN_LOV",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "DIGH_attr group",
+    "itemURL" : "step://attributegroup?id=DIGH_attr+group",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "LVL1",
+    "itemURL" : "step://product?id=103865",
+    "inclusion" : "Change",
+    "importing" : "Force",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "AT_START",
+    "itemURL" : "step://attribute?id=AT_START",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Test1",
+    "itemURL" : "step://ListOfValues?id=Test1",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "DIGH",
+    "itemURL" : "step://objecttype?id=DIGH",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "dighlvl3",
+    "itemURL" : "step://objecttype?id=dighlvl3",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "dighlvl2",
+    "itemURL" : "step://objecttype?id=dighlvl2",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "SKU3",
+    "itemURL" : "step://product?id=249013",
+    "inclusion" : "Change",
+    "importing" : "Force",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Marketing Brand",
+    "itemURL" : "step://ListOfValues?id=Marketing+Brand",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "SKU2",
+    "itemURL" : "step://product?id=249012",
+    "inclusion" : "Change",
+    "importing" : "Force",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Marketing",
+    "itemURL" : "step://attribute?id=Marketing",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "SKU1",
+    "itemURL" : "step://product?id=249011",
+    "inclusion" : "Change",
+    "importing" : "Force",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Attribute Groups",
+    "itemURL" : "step://attributegroup?id=Attribute+group+root",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "draj_product_description",
+    "itemURL" : "step://attribute?id=draj_product_description",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "DIGH_Hierarchy",
+    "itemURL" : "step://product?id=100852",
+    "inclusion" : "Change",
+    "importing" : "Force",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "SKU",
+    "itemURL" : "step://product?id=103868",
+    "inclusion" : "Change",
+    "importing" : "Force",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "LVL3",
+    "itemURL" : "step://product?id=103867",
+    "inclusion" : "Change",
+    "importing" : "Force",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Primary Product Hierarchy",
+    "itemURL" : "step://product?id=Product+hierarchy+root",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "LVL2",
+    "itemURL" : "step://product?id=103866",
+    "inclusion" : "Change",
+    "importing" : "Force",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Marketing",
+    "itemURL" : "step://ListOfValues?id=Marketing",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "draj_product_ean",
+    "itemURL" : "step://attribute?id=draj_product_ean",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "DIGH_LOV",
+    "itemURL" : "step://ListOfValuesGroup?id=DIGH_LOV",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "New_LOV1",
+    "itemURL" : "step://attribute?id=New_LOV1",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "ImageURLOther",
+    "itemURL" : "step://referencetype?id=ImageURLOther",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "New_LOV",
+    "itemURL" : "step://ListOfValues?id=New_LOV",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "assetblob",
+    "itemURL" : "step://attribute?id=assetblob",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Primary Product Classification",
+    "itemURL" : "step://objecttype?id=Product+user-type+root",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  } ],
+  "signedGlobalXml" : "<STEP-ProductInformation ContextID=\"Global\"  WorkspaceID=\"Main\"  ExportTime=\"2024-08-26 20:17:42\"    UseContextLocale=\"false\">\n\n  <Products>\n    <Product ID=\"100852\" UserTypeID=\"DIGH\" ParentID=\"Product hierarchy root\">\n      <Name>DIGH_Hierarchy</Name>\n      <AttributeLink AttributeID=\"MarketingBrand\"/>\n      <AttributeLink AttributeID=\"New_LOV1\"/>\n      <AttributeLink AttributeID=\"text\"/>\n      <AttributeLink AttributeID=\"Test_check\"/>\n      <AttributeLink AttributeID=\"Marketing\"/>\n      <AttributeLink AttributeID=\"Testcase11\"/>\n      <ClassificationReference ClassificationID=\"DIGH_class\" Type=\"DIGH_prodcl_ref\">\n        <MetaData>\n          <Value AttributeID=\"descprodref\">76</Value>\n        </MetaData>\n      </ClassificationReference>\n      <ProductCrossReference ProductID=\"103865\" Type=\"DIGH_prodref\">\n        <MetaData>\n          <Value AttributeID=\"desc\">62</Value>\n        </MetaData>\n      </ProductCrossReference>\n      <Values>\n        <Value AttributeID=\"New_LOV1\" ID=\"2\">NO</Value>\n        <Value AttributeID=\"text\">this</Value>\n        <Value AttributeID=\"Test_check\" ID=\"2\">NO</Value>\n        <Value AttributeID=\"desc\">54</Value>\n        <Value AttributeID=\"Testcase11\" ID=\"1\">YES</Value>\n      </Values>\n      <Product ID=\"103865\" UserTypeID=\"dighlvl1\">\n        <Name>LVL1</Name>\n        <Values>\n          <Value AttributeID=\"text\">that</Value>\n        </Values>\n        <Product ID=\"103866\" UserTypeID=\"dighlvl2\">\n          <Name>LVL2</Name>\n          <Product ID=\"103867\" UserTypeID=\"dighlvl3\">\n            <Name>LVL3</Name>\n            <Product ID=\"103868\" UserTypeID=\"dighsku\">\n              <Name>SKU</Name>\n            </Product>\n            <Product ID=\"249011\" UserTypeID=\"dighsku\">\n              <Name>SKU1</Name>\n            </Product>\n            <Product ID=\"249012\" UserTypeID=\"dighsku\">\n              <Name>SKU2</Name>\n              <ClassificationReference ClassificationID=\"DIGH_class\" Type=\"DIGH_prodcl_ref\">\n                <MetaData>\n                  <Value AttributeID=\"descprodref\">67</Value>\n                </MetaData>\n              </ClassificationReference>\n            </Product>\n            <Product ID=\"249013\" UserTypeID=\"dighsku\">\n              <Name>SKU3</Name>\n            </Product>\n          </Product>\n        </Product>\n      </Product>\n    </Product>\n  </Products>\n</STEP-ProductInformation>\n",
+  "signatory" : "STEPSYS",
+  "comment" : ""
+}

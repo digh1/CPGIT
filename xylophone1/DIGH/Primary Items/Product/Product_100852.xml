@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="Global" WorkspaceID="Main" UseContextLocale="false">
+    <Products>
+        <Product ID="100852" UserTypeID="DIGH" ParentID="Product hierarchy root">
+            <Name>DIGH_Hierarchy</Name>
+            <AttributeLink AttributeID="Marketing"></AttributeLink>
+            <AttributeLink AttributeID="MarketingBrand"></AttributeLink>
+            <AttributeLink AttributeID="New_LOV1"></AttributeLink>
+            <AttributeLink AttributeID="Test_check"></AttributeLink>
+            <AttributeLink AttributeID="Testcase11"></AttributeLink>
+            <AttributeLink AttributeID="text"></AttributeLink>
+            <ClassificationReference ClassificationID="DIGH_class" Type="DIGH_prodcl_ref">
+                <MetaData>
+                    <Value AttributeID="descprodref">76</Value>
+                </MetaData>
+            </ClassificationReference>
+            <ProductCrossReference ProductID="103865" Type="DIGH_prodref">
+                <MetaData>
+                    <Value AttributeID="desc">62</Value>
+                </MetaData>
+            </ProductCrossReference>
+            <Values>
+                <Value AttributeID="Testcase11" ID="1">YES</Value>
+                <Value AttributeID="New_LOV1" ID="2">NO</Value>
+                <Value AttributeID="Test_check" ID="2">NO</Value>
+                <Value AttributeID="desc">54</Value>
+                <Value AttributeID="text">this</Value>
+            </Values>
+        </Product>
+    </Products>
+</STEP-ProductInformation>

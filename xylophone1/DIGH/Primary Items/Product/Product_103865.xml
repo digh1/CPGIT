@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="Global" WorkspaceID="Main" UseContextLocale="false">
+    <Products>
+        <Product ID="100852" UserTypeID="DIGH" ParentID="Product hierarchy root">
+            <Product ID="103865" UserTypeID="dighlvl1">
+                <Name>LVL1</Name>
+                <Values>
+                    <Value AttributeID="text">that</Value>
+                </Values>
+            </Product>
+        </Product>
+    </Products>
+</STEP-ProductInformation>
